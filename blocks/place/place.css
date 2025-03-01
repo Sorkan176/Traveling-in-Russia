@@ -1,0 +1,20 @@
+.place {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 4%;
+  margin: 0 auto;
+}
+
+/*
+@media screen and (min-width : 1024px) {
+  .place {
+
+  }
+}
+*/
+
+@media screen  and (max-width : 767px) {
+  .place {
+    gap: 32px 0;
+  }
+}

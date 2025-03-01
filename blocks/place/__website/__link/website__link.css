@@ -1,0 +1,11 @@
+.website__link {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.website__link:hover {
+  cursor: pointer;
+}

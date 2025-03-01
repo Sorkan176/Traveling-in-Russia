@@ -1,0 +1,17 @@
+.place__description {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+  font-size: 18px;
+  width: 49%;
+  gap: 27px 0;
+}
+
+@media screen  and (max-width : 767px) {
+  .place__description {
+    font-size: 16px;
+    width: 100%;
+    gap: 25px 0;
+    padding: 0 16px;
+  }
+}
